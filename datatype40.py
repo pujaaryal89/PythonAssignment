@@ -1,0 +1,5 @@
+a = ('Product', '500.00', '1200.00')
+a = list(a)
+a.insert(3, 'foobar')
+a = tuple(a)
+print(a) 
