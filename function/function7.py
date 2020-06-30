@@ -9,7 +9,8 @@ def check_function(str):
             count2+=1
     print("the uppercase is :",count1)                   
     print("the lowercase is :",count2)  
-    return n                 
+    return count1,count2
+                 
                        
 string=input("Enter the string: ")
 strings=check_function(string)
