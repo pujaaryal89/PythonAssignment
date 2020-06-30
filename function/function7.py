@@ -8,7 +8,8 @@ def check_function(str):
         elif (n.islower()):
             count2+=1
     print("the uppercase is :",count1)                   
-    print("the lowercase is :",count2)                   
+    print("the lowercase is :",count2)  
+    return n                 
                        
 string=input("Enter the string: ")
 strings=check_function(string)
