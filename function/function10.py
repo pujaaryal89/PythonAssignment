@@ -7,14 +7,6 @@ even_list = get_even_li(sample_li)
 
 print(f'Sample list: {sample_li}')
 print(f'Even list: {even_list}')
-
-
-
-# list=[1,2,3,4]
-# for n in list:
-#     if n % 2==0:
-#         num=[n]
-# print(num)
         
         
         
